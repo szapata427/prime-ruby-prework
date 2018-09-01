@@ -7,10 +7,7 @@ def prime?(numbers)
 (2..numbers). each do |factor|
   if numbers % factor == 0
   return false
-  
-  elsif numbers % factor != 0
-  return true
-  
   end
+  return true
 end
 end
