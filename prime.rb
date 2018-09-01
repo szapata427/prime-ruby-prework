@@ -1,7 +1,7 @@
 def prime?(numbers)
   
   if 2 > numbers
-    return false
+    return true
   end
   
 (2..numbers). each do |factor|
