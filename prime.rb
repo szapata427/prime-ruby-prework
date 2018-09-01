@@ -2,10 +2,12 @@ def prime?(numbers)
   
   if 2 > numbers
     return false
+  end
   
 (2..numbers). each do |factor|
   
-  elsif numbers % factor == 0
-  return true
+  if numbers % factor == 0
+  return false
   end
+  return true
 end
