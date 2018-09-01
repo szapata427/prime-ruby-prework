@@ -8,7 +8,8 @@ def prime?(numbers)
   if numbers % factor == 0
   return true
 
-
+else
+  return false
   
   
   end
