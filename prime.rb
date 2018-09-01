@@ -5,9 +5,11 @@ def prime?(numbers)
   end
   
 (2..numbers). each do |factor|
-  
   if numbers % factor == 0
   return false
-  end
+else
   return true
+  
+  end
+  
 end
